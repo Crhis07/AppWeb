@@ -27,9 +27,9 @@
           <nav aria-label="Page navigation example">
               <ul class="pagination">
                 <li class="disabled"><a class="page-link" href="#">&laquo</a></li>
-                <li class="active"><a class="page-link" href="index.html">1</a></li>
-                <li class="page-item"><a class="page-link" href="actores.html">2</a></li>
-                <li class="page-item"><a class="page-link" href="personajes.html">3</a></li>
+                <li class="active"><a class="page-link" href="index.jsp">1</a></li>
+                <li class="page-item"><a class="page-link" href="actores.jsp">2</a></li>
+                <li class="page-item"><a class="page-link" href="personajes.jsp">3</a></li>
                 <li class="page-item"><a class="page-link" href="#">4</a></li>
                 <li class="page-item"><a class="page-link" href="#">5</a></li>
                 <li class="page-item"><a class="page-link" href="#">6</a></li>
@@ -52,8 +52,8 @@
             <div>
               <table>
                 <tr>
-                  <td><a href="actores.html">Actores</a></td>
-                  <td><a href="personajes.html">Personajes</a></td>
+                    <td><button type="button" class="btn btn-info" onclick="Pasar();" >Actores</button></td>
+                  <td><button type="button" class="btn btn-info">Personajes</button></td>
                 </tr>
               </table>
             </div>

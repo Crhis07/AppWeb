@@ -116,3 +116,7 @@ fetch(url6)
     console.log(data)
 })
 .catch(err => console.log(err))
+
+function Pasar(){
+    location.href = "actores.jsp";
+}
