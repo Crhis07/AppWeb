@@ -52,8 +52,8 @@
             <div>
               <table>
                 <tr>
-                    <td><button type="button" class="btn btn-info" onclick="Pasar();" >Actores</button></td>
-                  <td><button type="button" class="btn btn-info">Personajes</button></td>
+                    <td><button type="button" class="btn btn-info" onclick="Actores();" >Actores</button></td>
+                    <td><button type="button" class="btn btn-info" onclick="Personajes();" >Personajes</button></td>
                 </tr>
               </table>
             </div>

@@ -117,6 +117,10 @@ fetch(url6)
 })
 .catch(err => console.log(err))
 
-function Pasar(){
-    location.href = "actores.jsp";
+function Actores(){
+    location.href = "Actores/actores.jsp";
+}
+
+function Personajes(){
+    location.href = "Personajes/personajes.jsp";
 }
