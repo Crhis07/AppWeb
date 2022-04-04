@@ -30,7 +30,8 @@
             <li class="page-item"><a class="page-link" href="">&laquo</a></li>
             <li class="page-item"><a class="page-link" href="../index.jsp">1</a></li>
             <li class="page-item"><a class="page-link" href="../Actores/actores.jsp">2</a></li>
-            <li class="page-item"><a class="page-link" href="planetas.jsp">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="../Especies/especies.jsp">4</a></li>
             <li class="page-item"><a class="page-link" href="#">&raquo</a></li>
           </ul>
           </nav>

@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Java - Fetch</title>
+    <script src="especies.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- diseño base del estilo del cuerpo y cabezal de la tabla -->
     <style>
       body{
@@ -29,10 +31,10 @@
           <nav aria-label="Page navigation example">
               <ul class="pagination">
               <li class="page-item"><a class="page-link" href="">&laquo</a></li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="index.jsp">1</a></li>
               <li class="page-item"><a class="page-link" href="Actores/actores.jsp">2</a></li>
               <li class="page-item"><a class="page-link" href="Planetas/planetas.jsp">3</a></li>
-              <li class="page-item"><a class="page-link" href="Especies/especies.jsp">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
               <li class="page-item"><a class="page-link" href="#">&raquo</a></li>
             </ul>
             </nav>
@@ -43,7 +45,6 @@
                 <tr>
                     <td><button type="button" class="btn btn-info" onclick="Actores();" >Actores</button></td>
                     <td><button type="button" class="btn btn-info" onclick="Planetas();" >Planetas</button></td>
-                    <td><button type="button" class="btn btn-info" onclick="Especies();" >Especies</button></td>
                 </tr>
               </table>
             </div>
@@ -52,10 +53,10 @@
           <table class="table table-bordered table-striped">
             <thead>
               <tr>
-                <th colspan="2"><center>Primera Entrega</center></th>
+                <th colspan="2"><center>Primera Especie</center></th>
               </tr>
             </thead>
-            <tbody id="peli1">
+            <tbody id="e1">
               
             </tbody>
             <br>
@@ -66,10 +67,10 @@
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
-            <th colspan="2"><center>Segunda Entrega</center></th>
+            <th colspan="2"><center>Segunda Especie</center></th>
           </tr>
         </thead>
-        <tbody id="peli2">
+        <tbody id="e2">
           
         </tbody>
       </table>
@@ -79,10 +80,10 @@
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
-            <th colspan="2"><center>Tercera Entrega</center></th>
+            <th colspan="2"><center>Tercera Especie</center></th>
           </tr>
         </thead>
-        <tbody id="peli3">
+        <tbody id="e3">
           
         </tbody>
       </table>
@@ -92,10 +93,10 @@
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
-            <th colspan="2"><center>Quinta Entrega</center></th>
+            <th colspan="2"><center>Quinta Especie</center></th>
           </tr>
         </thead>
-        <tbody id="peli4">
+        <tbody id="e4">
           
         </tbody>
       </table>
@@ -105,10 +106,10 @@
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
-            <th colspan="2"><center>Sexta Entrega</center></th>
+            <th colspan="2"><center>Sexta Especie</center></th>
           </tr>
         </thead>
-        <tbody id="peli5">
+        <tbody id="e5">
           
         </tbody>
       </table>
@@ -121,16 +122,12 @@
             Sexta Película
           </tr>
         </thead>
-        <tbody id="peli6">
+        <tbody id="e6">
           
         </tbody>
       </table>
     </div>
     
-    <script src="index.js"></script>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       <!--<script>
         const url = "https://swapi.dev/api/films"
 

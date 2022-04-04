@@ -121,3 +121,6 @@ function Actores(){
 function Planetas(){
     location.href = "Personajes/planetas.jsp";
 }
+function Especies(){
+    location.href = "Especies/especies.jsp";
+}
