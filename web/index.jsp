@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Java - Fetch</title>
+    <!-- diseño base del estilo del cuerpo y cabezal de la tabla -->
     <style>
       body{
         background-color: cornflowerblue;
@@ -24,6 +25,7 @@
   <body>
       <div  class="container-fluid">
           <br>
+          <!<!-- elaboracion de un navbar para el inicio de paginación -->
           <nav aria-label="Page navigation example">
               <ul class="pagination">
                 <li class="disabled"><a class="page-link" href="#">&laquo</a></li>
@@ -37,6 +39,16 @@
               </ul>
             </nav>
       </div>
+      <div>
+              <table>
+                  <!<!-- Asignacion de botones para visualizar actores y planetas -->
+                <tr>
+                    <td><button type="button" class="btn btn-info" onclick="Actores();" >Actores</button></td>
+                    <td><button type="button" class="btn btn-info" onclick="Planetas();" >Planetas</button></td>
+                </tr>
+              </table>
+            </div>
+      <!<!-- creacion de un nuevo div para la visualizacion de datos -->
         <div class="container mt-4 shadow-lg p-3 mb-5 bg-body rounded">
           <table class="table table-bordered table-striped">
             <thead>
@@ -49,14 +61,6 @@
             </tbody>
             <br>
             </table>
-            <div>
-              <table>
-                <tr>
-                    <td><button type="button" class="btn btn-info" onclick="Actores();" >Actores</button></td>
-                    <td><button type="button" class="btn btn-info" onclick="Personajes();" >Personajes</button></td>
-                </tr>
-              </table>
-            </div>
         </div>
 
     <div class="container mt-4 shadow-lg p-3 mb-5 bg-body reounded">

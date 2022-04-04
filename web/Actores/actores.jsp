@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Java - Fetch</title>
+    <script src="actores.js"></script>
+    <!-- diseño base del estilo del cuerpo y cabezal de la tabla -->
     <style>
       body{
         background-color: cornflowerblue;
@@ -22,6 +24,7 @@
   <body>
     <div  class="container-fluid">
         <br>
+        <!<!-- elaboracion de un navbar para el inicio de paginación -->
         <nav aria-label="Page navigation example">
             <ul class="pagination">
               <li class="page-item"><a class="page-link" href="">&laquo</a></li>
@@ -35,6 +38,7 @@
             </ul>
           </nav>
     </div>
+      <!<!-- creacion de un nuevo div para la visualizacion de datos -->
     <div class="container mt-4 shadow-lg p-3 mb-5 bg-body reounded">
         <table class="table table-bordered table-striped">
           <thead>
@@ -47,8 +51,6 @@
           </tbody>
         </table>
       </div>
-
-      <script src="actores.js"></script>
  
 </body>
 </html>
