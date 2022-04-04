@@ -28,15 +28,12 @@
           <!<!-- elaboracion de un navbar para el inicio de paginación -->
           <nav aria-label="Page navigation example">
               <ul class="pagination">
-                <li class="disabled"><a class="page-link" href="#">&laquo</a></li>
-                <li class="active"><a class="page-link" href="index.jsp">1</a></li>
-                <li class="page-item"><a class="page-link" href="actores.jsp">2</a></li>
-                <li class="page-item"><a class="page-link" href="personajes.jsp">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                <li class="page-item"><a class="page-link" href="#">6</a></li>
-                <li class="page-item"><a class="page-link" href="#">&raquo</a></li>
-              </ul>
+              <li class="page-item"><a class="page-link" href="">&laquo</a></li>
+              <li class="page-item"><a class="page-link" href="index.jsp">1</a></li>
+              <li class="page-item"><a class="page-link" href="Actores/actores.jsp">2</a></li>
+              <li class="page-item"><a class="page-link" href="Planetas/planetas.jsp">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">&raquo</a></li>
+            </ul>
             </nav>
       </div>
       <div>
@@ -53,7 +50,7 @@
           <table class="table table-bordered table-striped">
             <thead>
               <tr>
-                <th colspan="2"><center>Primera Pelicula</center></th>
+                <th colspan="2"><center>Primera Entrega</center></th>
               </tr>
             </thead>
             <tbody id="peli1">
@@ -67,7 +64,7 @@
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
-            Segunda Película
+            <th colspan="2"><center>Segunda Entrega</center></th>
           </tr>
         </thead>
         <tbody id="peli2">
@@ -80,7 +77,7 @@
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
-            Tercera Película
+            <th colspan="2"><center>Tercera Entrega</center></th>
           </tr>
         </thead>
         <tbody id="peli3">
@@ -93,7 +90,7 @@
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
-            Cuarta Película
+            <th colspan="2"><center>Quinta Entrega</center></th>
           </tr>
         </thead>
         <tbody id="peli4">
@@ -106,7 +103,7 @@
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
-            Quinta Película
+            <th colspan="2"><center>Sexta Entrega</center></th>
           </tr>
         </thead>
         <tbody id="peli5">
