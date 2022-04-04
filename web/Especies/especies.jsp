@@ -31,23 +31,14 @@
           <nav aria-label="Page navigation example">
               <ul class="pagination">
               <li class="page-item"><a class="page-link" href="">&laquo</a></li>
-              <li class="page-item"><a class="page-link" href="index.jsp">1</a></li>
-              <li class="page-item"><a class="page-link" href="Actores/actores.jsp">2</a></li>
-              <li class="page-item"><a class="page-link" href="Planetas/planetas.jsp">3</a></li>
+              <li class="page-item"><a class="page-link" href="../index.jsp">1</a></li>
+              <li class="page-item"><a class="page-link" href="../Actores/actores.jsp">2</a></li>
+              <li class="page-item"><a class="page-link" href="../Planetas/planetas.jsp">3</a></li>
               <li class="page-item"><a class="page-link" href="#">4</a></li>
               <li class="page-item"><a class="page-link" href="#">&raquo</a></li>
             </ul>
             </nav>
       </div>
-      <div>
-              <table>
-                  <!<!-- Asignacion de botones para visualizar actores y planetas -->
-                <tr>
-                    <td><button type="button" class="btn btn-info" onclick="Actores();" >Actores</button></td>
-                    <td><button type="button" class="btn btn-info" onclick="Planetas();" >Planetas</button></td>
-                </tr>
-              </table>
-            </div>
       <!<!-- creacion de un nuevo div para la visualizacion de datos -->
         <div class="container mt-4 shadow-lg p-3 mb-5 bg-body rounded">
           <table class="table table-bordered table-striped">

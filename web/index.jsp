@@ -37,7 +37,7 @@
             </ul>
             </nav>
       </div>
-      <div>
+      <div align="center">
               <table>
                   <!<!-- Asignacion de botones para visualizar actores y planetas -->
                 <tr>
